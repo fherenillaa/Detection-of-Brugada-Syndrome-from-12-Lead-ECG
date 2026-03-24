@@ -5,7 +5,7 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=flat-square&logo=tensorflow)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Competition](https://img.shields.io/badge/IDSC-2026-purple?style=flat-square)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fherenillaa/Detection-of-Brugada-Syndrome-from-12-Lead-ECG/blob/main/notebook/brugada_detection.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fherenillaa/Detection-of-Brugada-Syndrome-from-12-Lead-ECG/blob/main/brugada_detection.ipynb)
 
 > Automated detection of Brugada Syndrome using deep learning on 12-lead ECG signals, combining CNN-Attention and BiLSTM architectures with explainability via SHAP and Grad-CAM.
 
@@ -117,7 +117,7 @@ Two architectures trained **with and without SMOTE** oversampling:
 
 Click the badge below to open the notebook directly in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fherenillaa/Detection-of-Brugada-Syndrome-from-12-Lead-ECG/blob/main/notebook/brugada_detection.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fherenillaa/Detection-of-Brugada-Syndrome-from-12-Lead-ECG/blob/main/brugada_detection.ipynb)
 
 Then follow these steps inside the notebook:
 
