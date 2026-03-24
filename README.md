@@ -90,6 +90,12 @@ Two architectures trained **with and without SMOTE** oversampling:
 
 **Best model: CNN-Attention (SMOTE)** — highest AUC (0.924), F1 (0.833), and Specificity (0.930) with 91% sensitivity.
 
+### Threshold Tuning
+![Threshold Tuning](assets/threshold_tuning.png)
+
+### Feature Importance (SHAP)
+![SHAP Feature Importance](assets/feature_importance.png)
+
 ---
 
 ## 🗂️ Repository Structure
