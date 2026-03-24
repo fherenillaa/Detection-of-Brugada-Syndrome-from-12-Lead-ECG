@@ -46,6 +46,8 @@ Our approach covers the full machine learning lifecycle:
 
 ## 🧠 Methods
 
+![Pipeline](pipeline_emebege_idsc2026.svg)
+
 ### 1. Preprocessing
 - Bandpass filter: **0.5–40 Hz** (Butterworth, order 4)
 - Removal of anomalous records
