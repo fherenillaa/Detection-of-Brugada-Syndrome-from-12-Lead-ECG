@@ -136,8 +136,8 @@ Go to **Runtime → Run All** and the full pipeline will execute automatically.
 ### 💻 Option 2 — Local Environment
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/fherenillaa/Detection-of-Brugada-Syndrome-from-12-Lead-ECG.git
+cd Detection-of-Brugada-Syndrome-from-12-Lead-ECG
 pip install -r requirements.txt
 jupyter notebook notebook/brugada_detection.ipynb
 ```
