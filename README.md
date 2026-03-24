@@ -46,7 +46,7 @@ Our approach covers the full machine learning lifecycle:
 
 ## 🧠 Methods
 
-![Pipeline](pipeline_emebege_idsc2026.svg)
+![Pipeline](assets/pipeline_emebege_idsc2026.svg)
 
 ### 1. Preprocessing
 - Bandpass filter: **0.5–40 Hz** (Butterworth, order 4)
@@ -90,6 +90,11 @@ Two architectures trained **with and without SMOTE** oversampling:
 
 **Best model: CNN-Attention (SMOTE)** — highest AUC (0.924), F1 (0.833), and Specificity (0.930) with 91% sensitivity.
 
+### Threshold Tuning
+![Threshold Tuning](assets/threshold_tuning.png)
+
+### Feature Importance (SHAP)
+![SHAP Feature Importance](assets/feature_importance.png)
 
 
 ---
