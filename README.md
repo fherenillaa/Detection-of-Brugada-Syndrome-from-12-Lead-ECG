@@ -183,6 +183,3 @@ Code is released under the [MIT License](LICENSE).
 
 ## 🔗 References
 
-- Antzelevitch, C. et al. (2005). Brugada Syndrome. *Circulation*.
-- Brugada-HUCA Dataset — PhysioNet
-- IDSC 2026: [idsc2026.github.io](https://idsc2026.github.io)
