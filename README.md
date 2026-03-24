@@ -79,14 +79,16 @@ Two architectures trained **with and without SMOTE** oversampling:
 
 ## 📊 Results
 
-| Model | AUC | F1 | Sensitivity | Specificity |
-|-------|-----|----|-------------|-------------|
-| CNN-Attention (no SMOTE) | — | — | — | — |
-| BiLSTM (no SMOTE) | — | — | — | — |
-| CNN-Attention (SMOTE) | — | — | — | — |
-| BiLSTM (SMOTE) | — | — | — | — |
+> Evaluated at optimal decision threshold (sensitivity ≥ 0.80 constraint).
 
-> 📝 To be updated after final model run.
+| Model | Threshold | AUC | F1 | Sensitivity | Specificity | PPV | NPV |
+|-------|-----------|-----|----|-------------|-------------|-----|-----|
+| CNN-Attention (no SMOTE) | 0.27 | 0.922 | 0.800 | 0.909 | 0.907 | 0.714 | 0.975 |
+| BiLSTM (no SMOTE) | 0.26 | 0.922 | 0.667 | **1.000** | 0.744 | 0.500 | 1.000 |
+| **CNN-Attention (SMOTE)** ⭐ | **0.10** | **0.924** | **0.833** | **0.909** | **0.930** | **0.769** | **0.976** |
+| BiLSTM (SMOTE) | 0.23 | 0.882 | 0.643 | 0.818 | 0.814 | 0.529 | 0.946 |
+
+**Best model: CNN-Attention (SMOTE)** — highest AUC (0.924), F1 (0.833), and Specificity (0.930) with 91% sensitivity.
 
 ---
 
