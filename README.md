@@ -99,7 +99,7 @@ Two architectures trained **with and without SMOTE** oversampling:
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 .
