@@ -11,7 +11,7 @@
 
 ---
 
-##👥 Team
+##  Team
 
 | Name | Role |
 |------|------|
@@ -21,7 +21,7 @@
 
 ---
 
-## 📋 Overview
+##  Overview
 
 Brugada Syndrome is a rare but life-threatening cardiac arrhythmia disorder, often missed in routine ECG interpretation. This project builds an end-to-end deep learning pipeline to **automatically detect Brugada Syndrome** from 12-lead ECG signals — enabling faster, more consistent clinical screening.
 
@@ -33,18 +33,18 @@ Our approach covers the full machine learning lifecycle:
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - **Source:** [Brugada-HUCA Dataset](https://physionet.org/) — PhysioNet
 - **Signals:** 12-lead ECG, 100 Hz sampling rate
 - **Labels:** `1` = Brugada Syndrome, `0` = Normal
 - **Format:** WFDB (`.hea` + `.dat`) + `metadata.csv`
 
-> ⚠️ Dataset is not included in this repository due to file size. Please download from PhysioNet and place it in your Google Drive at `MyDrive/embege/brugada-huca/`.
+>  Dataset is not included in this repository due to file size. Please download from PhysioNet and place it in your Google Drive at `MyDrive/embege/brugada-huca/`.
 
 ---
 
-## 🧠 Methods
+##  Methods
 
 ![Pipeline](assets/pipeline_emebege_idsc2026.svg)
 
@@ -77,7 +77,7 @@ Two architectures trained **with and without SMOTE** oversampling:
 
 ---
 
-## 📊 Results
+##  Results
 
 > Evaluated at optimal decision threshold (sensitivity ≥ 0.80 constraint).
 
@@ -111,9 +111,9 @@ Two architectures trained **with and without SMOTE** oversampling:
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
-### ▶️ Option 1 — Google Colab (Recommended)
+###  Option 1 — Google Colab (Recommended)
 
 Click the badge below to open the notebook directly in Google Colab:
 
@@ -144,7 +144,7 @@ Go to **Runtime → Run All** and the full pipeline will execute automatically.
 
 ---
 
-### 💻 Option 2 — Local Environment
+###  Option 2 — Local Environment
 
 ```bash
 git clone https://github.com/fherenillaa/Detection-of-Brugada-Syndrome-from-12-Lead-ECG.git
@@ -157,7 +157,7 @@ jupyter notebook notebook/brugada_detection.ipynb
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 ```
 wfdb
@@ -176,7 +176,7 @@ statsmodels
 
 ---
 
-## 🔬 Clinical Relevance
+##  Clinical Relevance
 
 Brugada Syndrome affects an estimated **1 in 2,000** people globally and is a leading cause of sudden cardiac death in young adults. Automated ECG screening tools can:
 - Reduce missed diagnoses in underserved clinical settings
@@ -185,7 +185,7 @@ Brugada Syndrome affects an estimated **1 in 2,000** people globally and is a le
 
 ---
 
-## 📄 License
+##  License
 
 This project is submitted as part of **IDSC 2026** — International Data Science Challenge.  
 Code is released under the [MIT License](LICENSE).
